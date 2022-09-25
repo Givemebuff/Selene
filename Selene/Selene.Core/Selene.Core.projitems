@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>54786634-1508-4d5e-be3a-38479fb49260</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Selene.Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Event\ValueChangedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Disposeable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Range.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Resource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TAP.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Event\" />
+  </ItemGroup>
+</Project>

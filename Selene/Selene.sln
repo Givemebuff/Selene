@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99F605F4-5D1F-4F8B-A58C-A65EA314B5EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{7A482E0A-CF56-4225-A78A-0B5D7C472382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "platform", "platform", "{BFD6CE0A-6BF9-4AC5-ADF9-5E0E7D19406F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Selene.Core", "Selene.Core\Selene.Core.shproj", "{54786634-1508-4D5E-BE3A-38479FB49260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "share", "share", "{E4DC7C09-F12D-465F-BCE7-EC1C3ECFB92A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selene.Core.Standard", "Selene.Core.Standard\Selene.Core.Standard.csproj", "{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{51086B27-D4E1-47B9-B426-B834EC5CB7E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6AF76E44-5999-44B4-9280-436FBFA43289}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Selene.Graph", "Selene.Graph\Selene.Graph.shproj", "{FD3C6333-6C3F-417C-921D-FC48E48060D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selene.Graph.Standard", "Selene.Graph.Standard\Selene.Graph.Standard.csproj", "{B825329B-D343-4732-ABA9-D76FF373D5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleneTest", "SeleneTest\SeleneTest.csproj", "{8C139DC7-AD36-447E-BFC8-A9C019A19325}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Selene.Wpf", "Selene.Wpf\Selene.Wpf.shproj", "{D7DFD400-2935-46E1-9396-9E20A161E5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selene.Wpf.Standard", "Selene.Wpf.Standard\Selene.Wpf.Standard.csproj", "{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selene.Wpf.Samples", "Selene.Wpf.Samples\Selene.Wpf.Samples.csproj", "{E50B863B-4B30-4D73-A827-A24A8D615018}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Selene.Core\Selene.Core.projitems*{54786634-1508-4d5e-be3a-38479fb49260}*SharedItemsImports = 13
+		Selene.Graph\Selene.Graph.projitems*{b825329b-d343-4732-aba9-d76ff373d5e6}*SharedItemsImports = 5
+		Selene.Core\Selene.Core.projitems*{cda6ea5b-304c-488f-9f72-6c4ab8bcbd12}*SharedItemsImports = 5
+		Selene.Wpf\Selene.Wpf.projitems*{d7dfd400-2935-46e1-9396-9e20a161e5a4}*SharedItemsImports = 13
+		Selene.Core\Selene.Core.projitems*{fd3c6333-6c3f-417c-921d-fc48e48060d3}*SharedItemsImports = 13
+		Selene.Graph\Selene.Graph.projitems*{fd3c6333-6c3f-417c-921d-fc48e48060d3}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B825329B-D343-4732-ABA9-D76FF373D5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B825329B-D343-4732-ABA9-D76FF373D5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B825329B-D343-4732-ABA9-D76FF373D5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B825329B-D343-4732-ABA9-D76FF373D5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C139DC7-AD36-447E-BFC8-A9C019A19325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C139DC7-AD36-447E-BFC8-A9C019A19325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C139DC7-AD36-447E-BFC8-A9C019A19325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C139DC7-AD36-447E-BFC8-A9C019A19325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50B863B-4B30-4D73-A827-A24A8D615018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50B863B-4B30-4D73-A827-A24A8D615018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50B863B-4B30-4D73-A827-A24A8D615018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50B863B-4B30-4D73-A827-A24A8D615018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFD6CE0A-6BF9-4AC5-ADF9-5E0E7D19406F} = {99F605F4-5D1F-4F8B-A58C-A65EA314B5EC}
+		{54786634-1508-4D5E-BE3A-38479FB49260} = {E4DC7C09-F12D-465F-BCE7-EC1C3ECFB92A}
+		{E4DC7C09-F12D-465F-BCE7-EC1C3ECFB92A} = {99F605F4-5D1F-4F8B-A58C-A65EA314B5EC}
+		{CDA6EA5B-304C-488F-9F72-6C4AB8BCBD12} = {BFD6CE0A-6BF9-4AC5-ADF9-5E0E7D19406F}
+		{FD3C6333-6C3F-417C-921D-FC48E48060D3} = {E4DC7C09-F12D-465F-BCE7-EC1C3ECFB92A}
+		{B825329B-D343-4732-ABA9-D76FF373D5E6} = {BFD6CE0A-6BF9-4AC5-ADF9-5E0E7D19406F}
+		{8C139DC7-AD36-447E-BFC8-A9C019A19325} = {6AF76E44-5999-44B4-9280-436FBFA43289}
+		{D7DFD400-2935-46E1-9396-9E20A161E5A4} = {E4DC7C09-F12D-465F-BCE7-EC1C3ECFB92A}
+		{E8A27AFD-66BD-468A-817B-AFBBBCEA15D4} = {BFD6CE0A-6BF9-4AC5-ADF9-5E0E7D19406F}
+		{E50B863B-4B30-4D73-A827-A24A8D615018} = {51086B27-D4E1-47B9-B426-B834EC5CB7E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A179A2-92F3-4F10-B360-128C8ECB3DBE}
+	EndGlobalSection
+EndGlobal

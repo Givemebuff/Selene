@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fd3c6333-6c3f-417c-921d-fc48e48060d3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Selene.Graph</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Base\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape\Ellipse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape\Line.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape\Rect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ICanvas.cs" />
+  </ItemGroup>
+</Project>
